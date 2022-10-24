@@ -6,14 +6,14 @@ programa
 		Etiquetadora
 
 NOMEDAEQUIPE caracter
-CONTAR inteiro
+contador inteiro
 
 Inicio
 escreva ("Digite o nome da equipe:")
 leia(NOMEDAEQUIPE)
-CONTAR <- 1
-enquanto (CONTAR <= 5) faca
-escreva (NOMEDAEQUIPE," - ", CONTAR)
-enquanto CONTAR <- CONTAR+1
+contador <- 1
+enquanto (contador <= 5) faca
+escreva (NOMEDAEQUIPE," - ", contador)
+enquanto contador <- contador+1
 	}
 }
