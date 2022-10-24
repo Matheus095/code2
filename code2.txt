@@ -1,0 +1,19 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		Etiquetadora
+
+NOMEDAEQUIPE caracter
+CONTAR inteiro
+
+Inicio
+escreva ("Digite o nome da equipe:")
+leia(NOMEDAEQUIPE)
+CONTAR <- 1
+enquanto (CONTAR <= 5) faca
+escreva (NOMEDAEQUIPE," - ", CONTAR)
+enquanto CONTAR <- CONTAR+1
+	}
+}
